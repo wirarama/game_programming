@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<title>FPS Multiplayer - Raycaster</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #000; overflow: hidden; }
+  canvas { display: block; margin: 0 auto; background: #000; cursor: none; }
+  #ui {
+    position: fixed; inset: 0; pointer-events: none;
+    font-family: 'Consolas', monospace; color: #fff;
+  }
+  #join {
+    position: fixed; inset: 0; display: flex; align-items: center; justify-content: center;
+    background: rgba(0,0,0,0.85); pointer-events: all; z-index: 10;
+  }
+  #join .box { background: #1a1a1a; padding: 30px 40px; border-radius: 10px; text-align: center; border: 1px solid #444; }
+  #join input { font-size: 18px; padding: 8px 12px; border-radius: 6px; border: none; width: 220px; }
+  #join button { font-size: 18px; padding: 8px 20px; border-radius: 6px; border: none; background: #e74c3c; color: #fff; margin-top: 12px; cursor: pointer; }
+  #join button:hover { background: #ff6b52; }
+  #join h1 { color: #fff; margin-top: 0; }
+  #hud { position: absolute; left: 0; right: 0; bottom: 0; padding: 10px; }
+  #hp-bar-bg { width: 220px; height: 22px; background: #000; border: 2px solid #555; }
+  #hp-bar { height: 100%; background: #e74c3c; width: 100%; }
+  #scoreboard {
+    position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.55);
+    padding: 8px 14px; border-radius: 6px; min-width: 160px;
+  }
+  #scoreboard div { padding: 2px 0; }
+  #killfeed { position: absolute; top: 10px; left: 10px; }
+  #killfeed div { background: rgba(0,0,0,0.5); padding: 4px 10px; margin-bottom: 4px; border-radius: 4px; font-size: 13px; }
+  #status { position: absolute; top: 10px; left: 50%; transform: translateX(-50%); font-size: 14px; opacity: 0.8; }
+  #deathscreen {
+    position: fixed; inset: 0; display: none; align-items: center; justify-content: center;
+    background: rgba(120,0,0,0.35); flex-direction: column; font-size: 40px; font-weight: bold;
+  }
+</style>
+</head>
+<body>
+
+<div id="join">
+  <div class="box">
+    <h1>FPS Multiplayer</h1>
+    <div><input id="nameInput" maxlength="16" placeholder="Nama kamu" /></div>
+    <button id="joinBtn">Masuk Server</button>
+    <p style="color:#aaa; font-size:13px; max-width:260px;">WASD gerak, mouse melihat, klik kiri tembak. Klik layar untuk mengunci mouse.</p>
+  </div>
+</div>
+
+<canvas id="game"></canvas>
+
+<div id="ui">
+  <div id="status"></div>
+  <div id="killfeed"></div>
+  <div id="scoreboard"></div>
+  <div id="hud">
+    <div id="hp-bar-bg"><div id="hp-bar"></div></div>
+  </div>
+  <div id="deathscreen">KAMU MATI<div style="font-size:16px; margin-top:10px;">Respawn sebentar lagi...</div></div>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>

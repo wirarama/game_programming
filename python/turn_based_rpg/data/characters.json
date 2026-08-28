@@ -1,0 +1,13 @@
+{
+  "player": {
+    "name": "Hero",
+    "image": "assets/images/player.png",
+    "base_hp": 80,
+    "base_attack": 14,
+    "base_defense": 7,
+    "hp_per_point": 18,
+    "attack_per_point": 5,
+    "defense_per_point": 4,
+    "points_per_level": 1
+  }
+}

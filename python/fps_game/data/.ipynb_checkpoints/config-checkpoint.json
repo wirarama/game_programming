@@ -1,0 +1,73 @@
+{
+  "//": "Semua pengaturan game ada di sini. Ganti nilainya lalu jalankan ulang python main.py -- tidak perlu edit kode.",
+
+  "ui": {
+    "//": "Layar menu utama & layar 'lanjutkan setelah kalah'. Gambar tombol dipakai sebagai tombolnya sendiri (klik langsung di atas gambar).",
+    "main_menu": {
+      "background": "assets/images/ui/menu_background.png",
+      "title": "SIMPLE FPS RAYCASTER",
+      "subtitle": "Habisi semua musuh, kalahkan Boss, dan menangkan pertempuran!",
+      "start_button": "assets/images/ui/button_start.png",
+      "quit_button": "assets/images/ui/button_quit.png"
+    },
+    "continue_screen": {
+      "//": "Muncul saat pemain mati. Pilih Lanjutkan untuk hidup lagi dari posisi terakhir (progres musuh/boss yang sudah terluka tetap tersimpan), atau Keluar untuk berhenti.",
+      "background": "assets/images/ui/menu_background.png",
+      "title": "KAMU TERJATUH...",
+      "message": "Jangan menyerah! Kamu bisa bangkit lagi dan melanjutkan pertempuran dari posisi terakhir.",
+      "continue_button": "assets/images/ui/button_continue.png",
+      "quit_button": "assets/images/ui/button_quit.png"
+    }
+  },
+
+  "story": {
+    "//": "Layar cerita bergambar + teks. Klik / tekan ENTER untuk lanjut.",
+    "intro": {
+      "image": "assets/images/story/intro.png",
+      "title": "AWAL KISAH",
+      "text": "Markas sudah dikepung gerombolan musuh. Kamu satu-satunya penjaga yang tersisa. Habisi semua musuh yang menyerbu sebelum mereka mengambil alih markas ini!"
+    },
+    "before_boss": {
+      "image": "assets/images/story/before_boss.png",
+      "title": "SUNYI SEBELUM BADAI",
+      "text": "Semua musuh biasa sudah tumbang. Tapi kamu merasakan getaran langkah berat mendekat... Penjaga Terakhir, sang Boss, akan datang menghadapimu. Bersiaplah!"
+    },
+    "ending": {
+      "image": "assets/images/story/ending.png",
+      "title": "KAMU MENANG!",
+      "text": "Boss telah tumbang. Markas ini kini aman kembali berkat keberanianmu. Kamu adalah penjaga sejati Eldoria!"
+    }
+  },
+
+  "combat": {
+    "//": "Jumlah tembakan/serangan yang dibutuhkan untuk membunuh masing-masing pihak. HP & damage aktual dihitung otomatis dari angka-angka ini, jadi cukup ubah nilainya di sini saja.",
+    "player_hp": 300,
+    "player_shoot_damage": 20,
+    "player_shoot_cooldown": 15,
+
+    "shots_to_kill_enemy": 3,
+    "shots_to_kill_boss": 20,
+
+    "enemy_hits_to_kill_player": 100,
+    "boss_hits_to_kill_player": 80,
+    "enemy_attack_interval": 0.1,
+    "boss_attack_interval": 0.5
+  },
+
+  "player": {
+    "move_speed": 4.2
+  },
+
+  "enemy": {
+    "count": 6,
+    "speed": 2.0,
+    "image": "assets/images/enemy.png"
+  },
+
+  "boss": {
+    "name": "Penjaga Terakhir",
+    "speed": 2.8,
+    "image": "assets/images/boss.png",
+    "spawn_message": "BOSS MUNCUL! BERTAHANLAH!"
+  }
+}

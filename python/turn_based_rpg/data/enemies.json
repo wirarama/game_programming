@@ -1,0 +1,104 @@
+{
+  "enemies": [
+    {
+      "id": "slime",
+      "name": "Slime Hijau",
+      "image": "assets/images/enemies/enemy1.png",
+      "min_level": 1,
+      "max_level": 2,
+      "hp": 21,
+      "attack": 5,
+      "defense": 1
+    },
+    {
+      "id": "bat",
+      "name": "Kelelawar Gua",
+      "image": "assets/images/enemies/enemy2.png",
+      "min_level": 1,
+      "max_level": 3,
+      "hp": 21,
+      "attack": 5,
+      "defense": 1
+    },
+    {
+      "id": "goblin",
+      "name": "Goblin Liar",
+      "image": "assets/images/enemies/enemy3.png",
+      "min_level": 2,
+      "max_level": 4,
+      "hp": 26,
+      "attack": 6,
+      "defense": 1
+    },
+    {
+      "id": "wolf",
+      "name": "Serigala Hutan",
+      "image": "assets/images/enemies/enemy4.png",
+      "min_level": 3,
+      "max_level": 5,
+      "hp": 31,
+      "attack": 7,
+      "defense": 2
+    },
+    {
+      "id": "skeleton",
+      "name": "Kerangka Tulang",
+      "image": "assets/images/enemies/enemy5.png",
+      "min_level": 4,
+      "max_level": 6,
+      "hp": 36,
+      "attack": 8,
+      "defense": 2
+    },
+    {
+      "id": "orc",
+      "name": "Orc Prajurit",
+      "image": "assets/images/enemies/enemy6.png",
+      "min_level": 5,
+      "max_level": 7,
+      "hp": 41,
+      "attack": 9,
+      "defense": 2
+    },
+    {
+      "id": "spider",
+      "name": "Laba-laba Racun",
+      "image": "assets/images/enemies/enemy7.png",
+      "min_level": 6,
+      "max_level": 8,
+      "hp": 46,
+      "attack": 10,
+      "defense": 3
+    },
+    {
+      "id": "darkmage",
+      "name": "Penyihir Hitam",
+      "image": "assets/images/enemies/enemy8.png",
+      "min_level": 7,
+      "max_level": 9,
+      "hp": 51,
+      "attack": 11,
+      "defense": 3
+    },
+    {
+      "id": "knight",
+      "name": "Ksatria Bayangan",
+      "image": "assets/images/enemies/enemy9.png",
+      "min_level": 8,
+      "max_level": 10,
+      "hp": 56,
+      "attack": 12,
+      "defense": 3
+    },
+    {
+      "id": "demon",
+      "name": "Iblis Kecil",
+      "image": "assets/images/enemies/enemy10.png",
+      "min_level": 9,
+      "max_level": 10,
+      "hp": 61,
+      "attack": 13,
+      "defense": 4
+    }
+  ]
+}

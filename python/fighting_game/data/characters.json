@@ -1,0 +1,87 @@
+{
+  "//": "final_boss_id: id tokoh yang SELALU menjadi lawan TERAKHIR (boss pamungkas), berapapun jumlah tokohnya.",
+  "final_boss_id": "shadow_master",
+
+  "characters": [
+    {
+      "id": "blaze",
+      "name": "Blaze",
+      "color": [210, 90, 60],
+      "images": {
+        "standby": "assets/images/blaze/standby.png",
+        "jump": "assets/images/blaze/jump.png",
+        "punch": "assets/images/blaze/punch.png",
+        "kick": "assets/images/blaze/kick.png"
+      },
+      "stats": { "health": 100, "speed": 5, "punch_damage": 6, "kick_damage": 10 },
+      "ending": {
+        "image": "assets/images/blaze/ending.png",
+        "text": "Blaze berdiri di puncak arena. Api dalam dirinya membakar semua rasa takut. Dialah sang juara sejati!"
+      }
+    },
+    {
+      "id": "frost",
+      "name": "Frost",
+      "color": [70, 140, 220],
+      "images": {
+        "standby": "assets/images/frost/standby.png",
+        "jump": "assets/images/frost/jump.png",
+        "punch": "assets/images/frost/punch.png",
+        "kick": "assets/images/frost/kick.png"
+      },
+      "stats": { "health": 100, "speed": 5, "punch_damage": 6, "kick_damage": 10 },
+      "ending": {
+        "image": "assets/images/frost/ending.png",
+        "text": "Frost membekukan seluruh lawannya dengan tenang dan presisi. Kedinginan tak pernah bisa dikalahkan!"
+      }
+    },
+    {
+      "id": "gale",
+      "name": "Gale",
+      "color": [90, 200, 110],
+      "images": {
+        "standby": "assets/images/gale/standby.png",
+        "jump": "assets/images/gale/jump.png",
+        "punch": "assets/images/gale/punch.png",
+        "kick": "assets/images/gale/kick.png"
+      },
+      "stats": { "health": 95, "speed": 6, "punch_damage": 5, "kick_damage": 9 },
+      "ending": {
+        "image": "assets/images/gale/ending.png",
+        "text": "Gale bergerak secepat angin, meninggalkan semua lawan tertinggal di belakang. Kecepatan adalah kemenangan!"
+      }
+    },
+    {
+      "id": "titan",
+      "name": "Titan",
+      "color": [150, 120, 60],
+      "images": {
+        "standby": "assets/images/titan/standby.png",
+        "jump": "assets/images/titan/jump.png",
+        "punch": "assets/images/titan/punch.png",
+        "kick": "assets/images/titan/kick.png"
+      },
+      "stats": { "health": 115, "speed": 4, "punch_damage": 8, "kick_damage": 12 },
+      "ending": {
+        "image": "assets/images/titan/ending.png",
+        "text": "Titan meruntuhkan setiap lawan dengan kekuatan raksasanya. Tak ada yang mampu menahan pukulan Titan!"
+      }
+    },
+    {
+      "id": "shadow_master",
+      "name": "Shadow Master",
+      "color": [90, 40, 120],
+      "images": {
+        "standby": "assets/images/shadow_master/standby.png",
+        "jump": "assets/images/shadow_master/jump.png",
+        "punch": "assets/images/shadow_master/punch.png",
+        "kick": "assets/images/shadow_master/kick.png"
+      },
+      "stats": { "health": 130, "speed": 5, "punch_damage": 9, "kick_damage": 13 },
+      "ending": {
+        "image": "assets/images/shadow_master/ending.png",
+        "text": "Sang Penguasa Bayangan akhirnya tumbang. Kegelapan tersingkap, dan sang juara baru pun lahir!"
+      }
+    }
+  ]
+}

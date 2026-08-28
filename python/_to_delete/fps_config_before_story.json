@@ -1,0 +1,31 @@
+{
+  "player": {
+    "hp": 300,
+    "move_speed": 4.2,
+    "shoot_damage": 15,
+    "shoot_cooldown": 15
+  },
+
+  "enemy": {
+    "count": 6,
+    "hp": 30,
+    "speed": 2.0,
+    "contact_damage_per_frame": 0.4,
+    "image": "assets/images/enemy.png"
+  },
+
+  "boss": {
+    "name": "Penjaga Terakhir",
+    "hp": 250,
+    "speed": 2.8,
+    "contact_damage_per_frame": 0.9,
+    "image": "assets/images/boss.png",
+    "spawn_message": "BOSS MUNCUL! BERTAHANLAH!"
+  },
+
+  "ending": {
+    "image": "assets/images/ending.png",
+    "title": "KAMU MENANG!",
+    "text": "Kamu berhasil menghabisi semua musuh dan mengalahkan Penjaga Terakhir. Markas ini kini aman kembali!"
+  }
+}

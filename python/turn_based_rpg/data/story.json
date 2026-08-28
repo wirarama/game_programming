@@ -1,0 +1,22 @@
+{
+  "intro": [
+    "Dunia Eldoria sedang dilanda kegelapan.",
+    "Kau, seorang petualang muda, bangkit untuk menghadapi para penguasa kegelapan.",
+    "Setiap 10 level, seorang Boss besar akan menghadangmu.",
+    "Kalahkan mereka semua dan selamatkan Eldoria!"
+  ],
+  "level_up": "Kamu naik level! Pilih atribut yang ingin ditingkatkan.",
+  "boss_intro": {
+    "1": "Seekor Goblin Raksasa muncul dari balik hutan gelap!",
+    "2": "Serigala Iblis menghadang jalanmu!",
+    "3": "Ksatria Gugur bangkit dari kuburnya!",
+    "4": "Penyihir Bayangan menantangmu berduel!",
+    "5": "Naga Muda mengaum di depanmu!",
+    "6": "Golem Batu Kuno terbangun dari tidurnya!",
+    "7": "Ratu Laba-laba menyerangmu dari sarangnya!",
+    "8": "Jenderal Iblis memimpin pasukannya melawanmu!",
+    "9": "Malaikat Jatuh turun dari langit!",
+    "10": "Sang Penguasa Kegelapan akhirnya menampakkan diri!"
+  },
+  "ending": "Selamat! Kau telah mengalahkan Penguasa Kegelapan dan menyelamatkan Eldoria. Kisahmu akan dikenang selamanya."
+}

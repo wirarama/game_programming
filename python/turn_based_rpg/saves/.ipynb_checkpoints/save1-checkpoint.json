@@ -1,0 +1,10 @@
+{
+  "level": 6,
+  "hp": 98,
+  "max_hp": 98,
+  "attack": 29,
+  "defense": 11,
+  "enemies_defeated_this_level": 0,
+  "boss_defeated_this_level": false,
+  "game_won": false
+}
